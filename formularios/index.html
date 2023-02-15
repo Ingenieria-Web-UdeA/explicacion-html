@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explicación formularios</title>
+  </head>
+  <body>
+    <head>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/estilos/">Estilos</a>
+        </li>
+      </ul>
+    </head>
+    <main>
+      <section>
+        <h1>Explicación de formularios</h1>
+        <div>
+          <form action="">
+            <div>
+              <label for="nombre">
+                <span>Nombre</span>
+                <input name="nombre" placeholder="Nombre" type="text" required />
+              </label>
+            </div>
+            <div>
+              <label for="email">
+                <span>Correo Electronico</span>
+                <input name="email" placeholder="micorreo@correo.com" type="email" />
+              </label>
+              <label for="password">
+                <span>Password</span>
+                <input name="password" type="password" />
+              </label>
+            </div>
+            <div>
+              <input type="number" step="0.1" max="100" min="10" />
+              <input type="checkbox" />
+              <div>
+                <input type="radio" name="radio" />
+                <input type="radio" name="radio" />
+                <input type="radio" name="radio" />
+              </div>
+              <div>
+                <input type="file" />
+              </div>
+              <input type="date" />
+              <input type="range" />
+              <input type="color" />
+              <input type="tel" />
+              <input type="button" value="Boton" />
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
