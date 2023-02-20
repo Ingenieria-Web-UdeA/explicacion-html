@@ -1,3 +1,54 @@
-.parrafo-rojo {
-  color: red;
+/* approach funcional */
+.texto-mayuscula {
+  text-transform: uppercase;
+}
+.texto-fucsia {
+  color: #bb1cbd;
+}
+
+/* approach grupo de estilos */
+.titulo {
+  text-transform: uppercase;
+  color: #bb1cbd;
+}
+
+.debug {
+  border: 1px solid red;
+}
+
+.div-explicacion-flex {
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.explicacion-textos {
+  color: black;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+.explicacion-tamano {
+  width: 200px;
+  height: 250px;
+}
+
+.explicacion-flex {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.explicacion-grid {
+  height: 600px;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  justify-items: center;
+  align-items: center;
 }
